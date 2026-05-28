@@ -15,6 +15,8 @@ build-backend = "hatchling.build"
 [project.scripts]
 VD-games = "VD_games.scripts.VD_main:main"
 VD-even = "VD_games.scripts.VD_even:main"
+VD-calc = "VD_games.scripts.VD_calc:main"
+VD-gcd = "VD_games.scripts.VD_gcd:main"
 
 [tool.hatch.build.targets.wheel]
 VD-games = "VD_games.scripts.VD_main:main"

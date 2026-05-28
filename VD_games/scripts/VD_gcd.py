@@ -1,10 +1,12 @@
+"""Точка входа для игры 'НОД'."""
+
 from VD_games.engine import run_game
-from VD_games.games import even
+from VD_games.games import gcd
 
 
 def main() -> None:
     """Запуск игры."""
-    run_game(even, "VD Games - Even Check")
+    run_game(gcd, "VD Games - GCD")
 
 
 if __name__ == "__main__":
