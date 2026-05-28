@@ -1,20 +1,11 @@
-"""Игра: Калькулятор (сложение, вычитание, умножение)."""
-
 import random
 
 
 def print_rules() -> None:
-    """Выводит правила игры."""
     print("What is the result of the expression?")
 
 
 def generate_question() -> tuple:
-    """
-    Генерирует случайное математическое выражение.
-
-    Returns:
-        tuple: (question_text, correct_answer)
-    """
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 50)
     operation = random.choice(["+", "-", "*"])

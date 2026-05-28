@@ -1,16 +1,7 @@
-"""Общий движок для всех игр VD Games."""
-
 import sys
 
 
 def run_game(game_module, game_name: str = "VD Game") -> None:
-    """
-    Args:
-        game_module: Модуль игры с функциями:
-            - print_rules(): вывод правил
-            - generate_question(): возвращает (question, correct_answer)
-        game_name: Название игры для вывода
-    """
     print(f"Welcome to the {game_name}!")
 
     name = input("May I have your name? ")
