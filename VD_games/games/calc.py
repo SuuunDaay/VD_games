@@ -16,7 +16,7 @@ def generate_question() -> tuple:
         correct_answer = num1 + num2
     elif operation == "-":
         correct_answer = num1 - num2
-    else:  # operation == '*'
+    else:
         correct_answer = num1 * num2
 
     return question, correct_answer
